@@ -17,8 +17,9 @@ public class SquareRoot {
             System.out.println("x1=");
             System.out.println("x2=");
         }else if (Math.sqrt(d) == b && a == 0){
-            System.out.println("x1=0.0");
-            System.out.println("x2=0.0");
+            x1 = x2 = 0 * d;
+            System.out.println("x1=" + x1);
+            System.out.println("x2=" + x2);
         }else if (d > 0) {
             x1 = (-b + Math.sqrt(d)) / (2 * a);
             x2 = (-b - Math.sqrt(d)) / (2 * a);
