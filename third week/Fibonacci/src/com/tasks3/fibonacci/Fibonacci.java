@@ -10,7 +10,7 @@ public class Fibonacci {
             return 1;
         }
         else {
-            return getNumber(position-1)+getNumber(position-2);
+            return getNumber(position-2)+getNumber(position-1);
         }
     }
 }
